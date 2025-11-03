@@ -1,0 +1,174 @@
+{
+    "header": {
+      "title": "Finanz-Dashboard",
+      "description": "Verfolgen Sie Ihre Einnahmen und Ausgaben"
+    },
+    "sidebar": {
+      "transactions": "Transaktionen",
+      "settings": "Einstellungen",
+      "archive": "Archiv",
+      "open_notes": "Notizen öffnen"
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "currency_label": "Währung",
+      "date_format_label": "Datumsformat",
+      "language_label": "Sprache",
+      "current_date_time": "Aktuelles Datum und Uhrzeit",
+      "date_format_options": {
+        "dd_mm_yyyy": "TT/MM/JJJJ",
+        "yyyy_mm_dd": "JJJJ-MM-TT"
+      },
+      "language_options": {
+        "en": "Englisch",
+        "de": "Deutsch",
+        "ru": "Russisch",
+        "es": "Spanisch",
+        "pl": "Polnisch"
+      }
+    },
+    "notes_modal": {
+      "title": "Notizen",
+      "close": "Schließen",
+      "add_note_placeholder": "Neue Notiz hinzufügen...",
+      "edit_note_placeholder": "Notiz bearbeiten...",
+      "add_button": "Hinzufügen",
+      "save_button": "Speichern",
+      "cancel_button": "Abbrechen",
+      "delete_selected_button": "Ausgewählte löschen",
+      "no_notes": "Keine Notizen verfügbar",
+      "delete_note_confirm": "Möchten Sie diese Notiz wirklich löschen?",
+      "delete_selected_confirm": "Möchten Sie die ausgewählten Notizen wirklich löschen?"
+    },
+    "transaction_form": {
+        "add_transaction": "Transaktion hinzufügen",
+        "edit_transaction": "Transaktion bearbeiten",
+        "description": "Beschreibung",
+        "amount": "Betrag",
+        "date": "Datum",
+        "type": "Typ",
+        "income": "Einnahme",
+        "expense": "Ausgabe",
+        "submit": "Hinzufügen",
+        "update": "Aktualisieren",
+        "cancel": "Abbrechen",
+        "loading_date": "Datum wird geladen...",
+        "date_title": "Datum im Format {format} eingeben",
+        "error_required": "Alle Felder sind erforderlich",
+        "error_amount": "Betrag muss eine gültige positive Zahl sein",
+        "error_date": "Datum muss im Format {format} und gültig sein",
+        "error_year": "Jahr muss zwischen {minYear} und {maxYear} liegen",
+        "error_save": "Fehler beim Speichern der Transaktion",
+        "error_install_date": "Fehler beim Laden des Installationsdatums"
+      },
+      "archive": {
+        "title": "Archiv",
+        "loading": "Laden...",
+        "no_selection": "Bitte wählen Sie ein Jahr und/oder einen Monat aus, um Transaktionen anzuzeigen.",
+        "no_transactions": "Keine Transaktionen für dieses Datum.",
+        "no_data_available": "Keine Transaktionsdaten verfügbar.",
+        "error_tauri": "Diese Seite erfordert eine Tauri-Umgebung, um zu funktionieren.",
+        "error_fetch_transactions": "Transaktionen konnten nicht abgerufen werden.",
+        "error_fetch_days": "Tage konnten nicht abgerufen werden.",
+        "error_fetch_data": "Daten konnten nicht abgerufen werden.",
+        "year_label": "Jahr",
+        "month_label": "Monat",
+        "select_year": "Jahr auswählen",
+        "select_month": "Monat auswählen",
+        "all_years": "Alle",
+        "all_months": "Alle",
+        "months": {
+          "januar": "Januar",
+          "februar": "Februar",
+          "marz": "März",
+          "april": "April",
+          "mai": "Mai",
+          "juni": "Juni",
+          "juli": "Juli",
+          "august": "August",
+          "september": "September",
+          "oktober": "October",
+          "november": "November",
+          "dezember": "Dezember"
+        },
+
+        "months_pdf": {
+          "0": "Januar",
+          "1": "Februar",
+          "2": "März",
+          "3": "April",
+          "4": "Mai",
+          "5": "Juni",
+          "6": "Juli",
+          "7": "August",
+          "8": "September",
+          "9": "Oktober",
+          "10": "November",
+          "11": "Dezember"
+        },
+    
+        "export_options": "Export-Optionen",
+        "full_name": "Vollständiger Name",
+        "address": "Adresse",
+        "plz": "PLZ",
+        "city": "Stadt",
+        "choose_logo": "Logo auswählen",
+        "no_logo_chosen": "Kein Logo ausgewählt",
+        "generate_pdf": "PDF generieren",
+        "cancel": "Abbrechen",
+
+        "print_date": "Druckdatum",
+        "description": "Beschreibung",
+        "date": "Datum",
+        "amount": "Betrag",
+        "total_income": "Gesamteinnahmen",
+        "total_expenses": "Gesamtausgaben",
+        "net_balance": "Nettoergebnis",
+        "page": "Seite"
+      },
+
+      "welcome": {
+        "title": "Willkommen beim Finanz-Dashboard",
+        "description": "Verfolgen Sie Ihre Einnahmen und Ausgaben mit Leichtigkeit.",
+        "go_to_transactions": "Zu Transaktionen",
+        "webview2_warning": "WebView2 Runtime nicht erkannt. Bitte installieren Sie wahrscheinlich den 'Evergreen Standalone Installer' oder von hier für die beste Erfahrung.",
+        "close_warning": "Warnung schließen"
+      },
+      "summary": {
+        "title": "Zusammenfassung",
+        "income": "Einnahmen",
+        "expenses": "Ausgaben",
+        "balance": "Saldo"
+      },
+      "chart": {
+        "title": "Transaktionsdiagramm",
+        "no_transactions": "Keine Transaktionen zum Anzeigen",
+        "income": "Einnahmen",
+        "expenses": "Ausgaben",
+        "descriptions": "Beschreibungen",
+        "current_date_time": "Aktuelles Datum und Uhrzeit",
+        "loading_time": "Zeit wird geladen..."
+      },
+      "transaction_list": {
+        "title": "Transaktionen",
+        "income": "Einnahmen",
+        "expenses": "Ausgaben",
+        "no_income_transactions": "Keine Einnahmentransaktionen",
+        "no_expense_transactions": "Keine Ausgabentransaktionen",
+        "start_date_placeholder_yyyy_mm_dd": "JJJJ-MM-TT",
+        "start_date_placeholder_dd_mm_yyyy": "TT/MM/JJJJ",
+        "end_date_placeholder_yyyy_mm_dd": "JJJJ-MM-TT",
+        "end_date_placeholder_dd_mm_yyyy": "TT/MM/JJJJ",
+        "start_date_label": "Startdatum",
+        "end_date_label": "Enddatum",
+        "previous_month": "Vorheriger Monat",
+        "next_month": "Nächster Monat",
+        "this_month": "Dieser Monat",
+        "today": "Heute",
+        "edit": "Bearbeiten",
+        "delete": "Löschen",
+        "edit_aria_label": "Transaktion bearbeiten: {{description}}",
+        "delete_aria_label": "Transaktion löschen: {{description}}",
+        "delete_confirm": "Sind Sie sicher, dass Sie diese Transaktion löschen möchten?"
+      }
+  }

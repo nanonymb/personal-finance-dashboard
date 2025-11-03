@@ -1,0 +1,174 @@
+{
+    "header": {
+      "title": "Финансовая панель",
+      "description": "Отслеживайте свои доходы и расходы"
+    },
+    "sidebar": {
+      "transactions": "Транзакции",
+      "settings": "Настройки",
+      "archive": "Архив",
+      "open_notes": "Открыть заметки"
+    },
+    "settings": {
+      "title": "Настройки",
+      "currency_label": "Валюта",
+      "date_format_label": "Формат даты",
+      "language_label": "Язык",
+      "current_date_time": "Текущая дата и время",
+      "date_format_options": {
+        "dd_mm_yyyy": "ДД/ММ/ГГГГ",
+        "yyyy_mm_dd": "ГГГГ-ММ-ДД"
+      },
+      "language_options": {
+        "en": "Английский",
+        "de": "Немецкий",
+        "ru": "Русский",
+        "es": "Испанский",
+        "pl": "Польский"
+      }
+    },
+    "notes_modal": {
+      "title": "Заметки",
+      "close": "Закрыть",
+      "add_note_placeholder": "Добавить новую заметку...",
+      "edit_note_placeholder": "Редактировать заметку...",
+      "add_button": "Добавить",
+      "save_button": "Сохранить",
+      "cancel_button": "Отмена",
+      "delete_selected_button": "Удалить выбранные",
+      "no_notes": "Нет доступных заметок",
+      "delete_note_confirm": "Вы уверены, что хотите удалить эту заметку?",
+      "delete_selected_confirm": "Вы уверены, что хотите удалить выбранные заметки?"
+    },
+    "transaction_form": {
+        "add_transaction": "Добавить транзакцию",
+        "edit_transaction": "Редактировать транзакцию",
+        "description": "Описание",
+        "amount": "Сумма",
+        "date": "Дата",
+        "type": "Тип",
+        "income": "Доход",
+        "expense": "Расход",
+        "submit": "Добавить",
+        "update": "Обновить",
+        "cancel": "Отмена",
+        "loading_date": "Загрузка даты...",
+        "date_title": "Введите дату в формате {format}",
+        "error_required": "Все поля обязательны",
+        "error_amount": "Сумма должна быть действительным положительным числом",
+        "error_date": "Дата должна быть в формате {format} и действительной",
+        "error_year": "Год должен быть между {minYear} и {maxYear}",
+        "error_save": "Не удалось сохранить транзакцию",
+        "error_install_date": "Не удалось загрузить дату установки"
+      },
+      "archive": {
+        "title": "Архив",
+        "loading": "Загрузка...",
+        "no_selection": "Пожалуйста, выберите год и/или месяц для просмотра транзакций.",
+        "no_transactions": "Нет транзакций для этой даты.",
+        "no_data_available": "Нет данных о транзакциях.",
+        "error_tauri": "Эта страница требует окружения Tauri для работы.",
+        "error_fetch_transactions": "Не удалось загрузить транзакции.",
+        "error_fetch_days": "Не удалось загрузить дни.",
+        "error_fetch_data": "Не удалось загрузить данные.",
+        "year_label": "Год",
+        "month_label": "Месяц",
+        "select_year": "Выберите год",
+        "select_month": "Выберите месяц",
+        "all_years": "Все",
+        "all_months": "Все",
+        "months": {
+          "январь": "Январь",
+          "февраль": "Февраль",
+          "март": "Март",
+          "апрель": "Апрель",
+          "май": "Май",
+          "июнь": "Июнь",
+          "июль": "Июль",
+          "август": "Август",
+          "сентябрь": "Сентябрь",
+          "октябрь": "Октябрь",
+          "ноябрь": "Ноябрь",
+          "декабрь": "Декабрь"
+        },
+
+        "months_pdf": {
+          "0": "Январь",
+          "1": "Февраль",
+          "2": "Март",
+          "3": "Апрель",
+          "4": "Май",
+          "5": "Июнь",
+          "6": "Июль",
+          "7": "Август",
+          "8": "Сентябрь",
+          "9": "Октябрь",
+          "10": "Ноябрь",
+          "11": "Декабрь"
+        },
+    
+        "export_options": "Настройки экспорта",
+        "full_name": "Полное имя",
+        "address": "Адрес",
+        "plz": "Индекс",
+        "city": "Город",
+        "choose_logo": "Выбрать лого",
+        "no_logo_chosen": "Логотип не выбран",
+        "generate_pdf": "Создать PDF",
+        "cancel": "Отмена",
+    
+        "print_date": "Дата печати",
+        "description": "Описание",
+        "date": "Дата",
+        "amount": "Сумма",
+        "total_income": "Всего доходов",
+        "total_expenses": "Всего расходов",
+        "net_balance": "Чистый результат",
+        "page": "Страница"
+      },
+
+      "welcome": {
+        "title": "Добро пожаловать в Финансовую панель",
+        "description": "Отслеживайте свои доходы и расходы с легкостью.",
+        "go_to_transactions": "Перейти к транзакциям",
+        "webview2_warning": "WebView2 Runtime не обнаружен. Пожалуйста, установите, вероятно, 'Evergreen Standalone Installer' или отсюда для лучшего опыта.",
+        "close_warning": "Закрыть предупреждение"
+      },
+      "summary": {
+        "title": "Итог",
+        "income": "Доходы",
+        "expenses": "Расходы",
+        "balance": "Баланс"
+      },
+      "chart": {
+        "title": "График транзакций",
+        "no_transactions": "Нет транзакций для отображения",
+        "income": "Доходы",
+        "expenses": "Расходы",
+        "descriptions": "Описания",
+        "current_date_time": "Текущая дата и время",
+        "loading_time": "Загрузка времени..."
+      },
+      "transaction_list": {
+        "title": "Транзакции",
+        "income": "Доходы",
+        "expenses": "Расходы",
+        "no_income_transactions": "Нет транзакций доходов",
+        "no_expense_transactions": "Нет транзакций расходов",
+        "start_date_placeholder_yyyy_mm_dd": "ГГГГ-ММ-ДД",
+        "start_date_placeholder_dd_mm_yyyy": "ДД/ММ/ГГГГ",
+        "end_date_placeholder_yyyy_mm_dd": "ГГГГ-ММ-ДД",
+        "end_date_placeholder_dd_mm_yyyy": "ДД/ММ/ГГГГ",
+        "start_date_label": "Дата начала",
+        "end_date_label": "Дата окончания",
+        "previous_month": "Предыдущий месяц",
+        "next_month": "Следующий месяц",
+        "this_month": "Этот месяц",
+        "today": "Сегодня",
+        "edit": "Редактировать",
+        "delete": "Удалить",
+        "edit_aria_label": "Редактировать транзакцию: {{description}}",
+        "delete_aria_label": "Удалить транзакцию: {{description}}",
+        "delete_confirm": "Вы уверены, что хотите удалить эту транзакцию?"
+      }
+  }

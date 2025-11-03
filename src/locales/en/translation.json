@@ -1,0 +1,174 @@
+{
+  "header": {
+    "title": "Finance Dashboard",
+    "description": "Track your income and expenses"
+  },
+  "sidebar": {
+    "transactions": "Transactions",
+    "settings": "Settings",
+    "archive": "Archive",
+    "open_notes": "Open notes"
+  },
+  "settings": {
+    "title": "Settings",
+    "currency_label": "Currency",
+    "date_format_label": "Date Format",
+    "language_label": "Language",
+    "current_date_time": "Current Date and Time",
+    "date_format_options": {
+      "dd_mm_yyyy": "DD/MM/YYYY",
+      "yyyy_mm_dd": "YYYY-MM-DD"
+    },
+    "language_options": {
+      "en": "English",
+      "de": "German",
+      "ru": "Russian",
+      "es": "Spain",
+      "pl": "Polish"
+    }
+  },
+  "notes_modal": {
+    "title": "Notes",
+    "close": "Close",
+    "add_note_placeholder": "Add a new note...",
+    "edit_note_placeholder": "Edit note...",
+    "add_button": "Add",
+    "save_button": "Save",
+    "cancel_button": "Cancel",
+    "delete_selected_button": "Delete Selected",
+    "no_notes": "No notes available",
+    "delete_note_confirm": "Are you sure you want to delete this note?",
+    "delete_selected_confirm": "Are you sure you want to delete selected notes?"
+  },
+  "transaction_form": {
+    "add_transaction": "Add Transaction",
+    "edit_transaction": "Edit Transaction",
+    "description": "Description",
+    "amount": "Amount",
+    "date": "Date",
+    "type": "Type",
+    "income": "Income",
+    "expense": "Expense",
+    "submit": "Add",
+    "update": "Update",
+    "cancel": "Cancel",
+    "loading_date": "Loading date...",
+    "date_title": "Enter date in {format} format",
+    "error_required": "All fields are required",
+    "error_amount": "Amount must be a valid positive number",
+    "error_date": "Date must be in {format} format and valid",
+    "error_year": "Year must be between {minYear} and {maxYear}",
+    "error_save": "Failed to save transaction",
+    "error_install_date": "Failed to load install date"
+  },
+  "archive": {
+    "title": "Archive",
+    "loading": "Loading...",
+    "no_selection": "Please select a year and/or month to view transactions.",
+    "no_transactions": "No transactions for this date.",
+    "no_data_available": "No transaction data available.",
+    "error_tauri": "This page requires Tauri environment to function.",
+    "error_fetch_transactions": "Failed to fetch transactions.",
+    "error_fetch_days": "Failed to fetch days.",
+    "error_fetch_data": "Failed to fetch data.",
+    "year_label": "Year",
+    "month_label": "Month",
+    "select_year": "Select year",
+    "select_month": "Select month",
+    "all_years": "All",
+    "all_months": "All",
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+
+    "months_pdf": {
+      "0": "January",
+      "1": "February",
+      "2": "March",
+      "3": "April",
+      "4": "May",
+      "5": "June",
+      "6": "July",
+      "7": "August",
+      "8": "September",
+      "9": "October",
+      "10": "November",
+      "11": "December"
+    },
+
+    "export_options": "Export Options",
+    "full_name": "Full Name",
+    "address": "Address",
+    "plz": "Index",
+    "city": "City",
+    "choose_logo": "Choose logo",
+    "no_logo_chosen": "No logo chosen",
+    "generate_pdf": "Generate PDF",
+    "cancel": "Cancel",
+
+    "print_date": "Print Date",
+    "description": "Description",
+    "date": "Date",
+    "amount": "Amount",
+    "total_income": "Total Income",
+    "total_expenses": "Total Expenses",
+    "net_balance": "Net Balance",
+    "page": "Page"
+  },
+
+  "welcome": {
+    "title": "Welcome to Finance Dashboard",
+    "description": "Track your income and expenses with ease.",
+    "go_to_transactions": "Go to Transactions",
+    "webview2_warning": "WebView2 Runtime not detected. Please install likely 'Evergreen Standalone Installer' or else from here for the best experience.",
+    "close_warning": "Close warning"
+  },
+  "summary": {
+    "title": "Summary",
+    "income": "Income",
+    "expenses": "Expenses",
+    "balance": "Balance"
+  },
+  "chart": {
+    "title": "Transaction Chart",
+    "no_transactions": "No transactions to display",
+    "income": "Income",
+    "expenses": "Expenses",
+    "descriptions": "Descriptions",
+    "current_date_time": "Current Date and Time",
+    "loading_time": "Loading time..."
+  },
+  "transaction_list": {
+    "title": "Transactions",
+    "income": "Income",
+    "expenses": "Expenses",
+    "no_income_transactions": "No income transactions",
+    "no_expense_transactions": "No expense transactions",
+    "start_date_placeholder_yyyy_mm_dd": "YYYY-MM-DD",
+    "start_date_placeholder_dd_mm_yyyy": "DD/MM/YYYY",
+    "end_date_placeholder_yyyy_mm_dd": "YYYY-MM-DD",
+    "end_date_placeholder_dd_mm_yyyy": "DD/MM/YYYY",
+    "start_date_label": "Start date",
+    "end_date_label": "End date",
+    "previous_month": "Previous Month",
+    "next_month": "Next Month",
+    "this_month": "This Month",
+    "today": "Today",
+    "edit": "Edit",
+    "delete": "Delete",
+    "edit_aria_label": "Edit transaction: {{description}}",
+    "delete_aria_label": "Delete transaction: {{description}}",
+    "delete_confirm": "Are you sure you want to delete this transaction?"
+  }
+}
