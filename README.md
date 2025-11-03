@@ -1,3 +1,11 @@
+## License
+This project is licensed under the Business Source License 1.1 (BSL 1.1) - see the [LICENSE.md](LICENSE.md) file for details.
+
+### What This Means
+- **Free for Non-Commercial Use**: Anyone can view, use, modify, and share this project for free in non-production or non-commercial contexts (e.g., personal, testing, education).
+- **No Selling or Commercial Use by Others**: You cannot use this in production environments, sell it, or use it for revenue-generating purposes without a commercial license from me.
+- **Contact for Commercial Use**: If you want to use this commercially (e.g., in a business or to sell derivatives), reach out to me for a paid license.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
