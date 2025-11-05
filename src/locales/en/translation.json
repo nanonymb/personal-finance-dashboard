@@ -110,7 +110,7 @@
     "export_options": "Export Options",
     "full_name": "Full Name",
     "address": "Address",
-    "plz": "Index",
+    "plz": "Code",
     "city": "City",
     "choose_logo": "Choose logo",
     "no_logo_chosen": "No logo chosen",
