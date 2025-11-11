@@ -199,7 +199,7 @@ pub fn add_note(app_handle: AppHandle, note: NoteInput) -> Result<(), String> {
     Ok(())
 }
 
-// Updated update_transaction
+// update_transaction
 #[tauri::command]
 pub fn update_transaction(app_handle: AppHandle, transaction: Transaction) -> Result<(), String> {
     let db_path = get_db_path(&app_handle)?;
@@ -266,7 +266,7 @@ pub fn update_note(app_handle: AppHandle, note: Note) -> Result<(), String> {
     Ok(())
 }
 
-// Updated delete_transaction
+// delete_transaction
 #[tauri::command]
 pub fn delete_transaction(app_handle: AppHandle, id: i32) -> Result<(), String> {
     let db_path = get_db_path(&app_handle)?;
