@@ -1,9 +1,7 @@
-/* src/app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Enhanced CSS Reset for cross-browser consistency */
 @layer base {
   *, *:before, *:after {
     margin: 0;
@@ -80,7 +78,6 @@ body::before {
   z-index: -1;
 }
 
-/* Keep your Tinting.jpg overlay */
 body::after {
   content: "";
   position: absolute;
@@ -92,7 +89,6 @@ body::after {
   z-index: -1;
 }
 
-/* Lower z-index for content to avoid modal conflicts */
 .w-64 {
   z-index: 10;
 }
